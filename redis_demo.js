@@ -15,6 +15,11 @@ async function redis_main() {
     client.disconnect();
 }
 
-redis_main();
+async function main() {
+
+    if (require.main === module) {
+    	redis_main();
+    }
+}
 
 module.exports = {redis_main};
