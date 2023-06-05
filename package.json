@@ -1,0 +1,14 @@
+{
+  "name": "redis_demo",
+  "version": "1.0.0",
+  "description": "demo service for redis access",
+  "main": "redis_demo.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^4.6.7"
+  }
+}
